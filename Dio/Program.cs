@@ -6,8 +6,13 @@ namespace Classe
 {
     class Pessoa
     {
+    
+       public string nome { get; set;}
 
-        string nome;
+       public string estado { get; set;}
+
+        public int idade { get; set; }
+
     }
 
 }
